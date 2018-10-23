@@ -13,7 +13,7 @@ class Song
     @@count 
   end 
   
-  def genres 
+  def genre_count 
     @@genres
   end 
   
