@@ -7,7 +7,7 @@ class Song
     @name, @artist, @genre = name, artist, genre 
     @@count += 1 
     @@genres[genre] += 1 
-    @@artist << artist unless @@artist.include?(artist)
+    @@artist[artist] += 1 
   end 
   
   def count 
