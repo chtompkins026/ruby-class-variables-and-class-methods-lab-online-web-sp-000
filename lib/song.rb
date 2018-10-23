@@ -47,6 +47,7 @@ class Song
         answer[artist] += 1 
       else 
         answer[artist] = 1
+      end 
     end 
     answer 
   end 
