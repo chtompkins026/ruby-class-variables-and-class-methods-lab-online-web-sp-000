@@ -29,6 +29,7 @@ class Song
         answer[genre] += 1 
       else 
         answer[genre] = 1 
+      end 
     end 
     answer 
   end 
