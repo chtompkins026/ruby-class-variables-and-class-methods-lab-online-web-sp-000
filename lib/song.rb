@@ -37,7 +37,7 @@ class Song
   
   def self.artist_count
      answer = {} 
-    @@artist.each do |genre| 
+      @@artist.each do |genre| 
       answer[genre] += 1 
     end 
     answer 
