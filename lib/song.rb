@@ -12,6 +12,9 @@ class Song
     @@count 
   end 
   
+  def genres 
+    @@genres
+  end 
   
   
 end #end of the song class   
