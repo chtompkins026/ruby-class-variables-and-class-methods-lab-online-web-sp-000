@@ -30,8 +30,11 @@ class Song
     answer 
   end 
   
+  
+  def self.artist 
+  
   def self.artist_count
-    @@artist 
+    @@artist
   end 
   
   
