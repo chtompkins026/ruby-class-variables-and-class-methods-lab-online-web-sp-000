@@ -24,7 +24,7 @@ class Song
   
   def self.genre_count 
     answer = {} 
-    @@artists.each do |genre| 
+    @@genres.each do |genre| 
       answer[genre] += 1 
     end 
     answer 
@@ -37,7 +37,7 @@ class Song
   
   def self.artist_count
      answer = {} 
-      @@artist.each do |genre| 
+      @@artists.each do |artist| 
       answer[genre] += 1 
     end 
     answer 
