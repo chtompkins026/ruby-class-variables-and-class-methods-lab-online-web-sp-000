@@ -18,5 +18,9 @@ class Song
     @@genres 
   end 
   
+  def artist_count
+    @@artist 
+  end 
+  
   
 end #end of the song class   
