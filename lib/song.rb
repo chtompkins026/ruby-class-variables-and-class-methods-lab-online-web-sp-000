@@ -6,8 +6,8 @@ class Song
   def intialize(name, artist, genre)  
     @name, @artist, @genre = name, artist, genre 
     @@count += 1 
-    @@genres[@genre] += 1 
-    @@artist[@artist] += 1 
+    @@genres[genre] += 1 
+    @@artist[artist] += 1 
   end 
   
   def count 
