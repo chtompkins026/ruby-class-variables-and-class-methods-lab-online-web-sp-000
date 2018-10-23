@@ -1,7 +1,7 @@
 class Song
   @@count = 0 
-  @@genres = {}
-  @@artist = {}
+  @@genres = []
+  @@artist = []
   
   attr_accessor :name, :artist, :genre
   
@@ -12,7 +12,7 @@ class Song
     @@artist[artist] += 1 
   end 
   
-  def count 
+  def self.count 
     @@count 
   end 
   
